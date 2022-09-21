@@ -1,0 +1,14 @@
+
+diff --git a/ReactCommon/React-bridging.podspec b/ReactCommon/React-bridging.podspec
+index 5255c135d03185e849a54fb305642ebd2f921ddc..52a8eb04387dbf60256956a8ce45d4f2b74564ec 100644
+--- a/ReactCommon/React-bridging.podspec
++++ b/ReactCommon/React-bridging.podspec
+@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
+   s.source                 = source
+   s.source_files           = "react/bridging/**/*.{cpp,h}"
+   s.exclude_files          = "react/bridging/tests"
+-  s.header_dir             = "react/bridging"
++  s.header_dir             = "."
+   s.header_mappings_dir    = "."
+   s.compiler_flags         = folly_compiler_flags
+   s.pod_target_xcconfig    = { "HEADER_SEARCH_PATHS" => "\"$(PODS_ROOT)/RCT-Folly\"",

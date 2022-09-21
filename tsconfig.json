@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "allowJs": false,
+    "module": "ESNext",
+    "target": "ESNext",
+    "jsx": "react-native",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "experimentalDecorators": true,
+    "useDefineForClassFields": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "noFallthroughCasesInSwitch": true,
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "moduleResolution": "Node",
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+  },
+  "exclude": [
+    ".history",
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ]
+}
